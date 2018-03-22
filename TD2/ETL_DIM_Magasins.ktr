@@ -520,7 +520,7 @@
     <hop>
       <from>Suppr_Doublon_Dept</from>
       <to>Insert_Into_Dim_Magasin</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Extraction_Departements</from>
@@ -788,7 +788,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1200</xloc>
+      <xloc>1040</xloc>
       <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
@@ -851,8 +851,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1024</xloc>
-      <yloc>160</yloc>
+      <xloc>944</xloc>
+      <yloc>208</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
