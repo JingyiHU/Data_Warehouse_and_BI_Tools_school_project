@@ -1,0 +1,128 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[francais]{babel} % Package babel pour le français
+\usepackage[T1]{fontenc}    % Package pour les accentuations
+\usepackage[utf8]{inputenc}  % Français
+\usepackage{textcomp}
+\usepackage{lmodern}        % Pour avoir de bonnes polices en pdf
+\usepackage{graphicx}       % Indispensable pour les figures
+\usepackage{epstopdf}       % Utile pour les figures, résout une erreur
+\usepackage{amsmath}        % Environnement pour les maths, permet du mettre du texte dans les équations
+\usepackage{geometry}       % Utilisé pour les marges
+\usepackage{pst-tree}		% Pour dessiner des arbres
+\usepackage{pst-node}
+\usepackage{multicol}		% Pour les colonnes
+\usepackage{mathtools, bm}  % Typographie pour les ensembles communs
+\usepackage{amssymb, bm}    % Typographie pour les ensembles communs
+\usepackage{float}          % Pour bien placer les figures, scripts et tableaux
+%\usepackage{listings}       % Utilisé pour les scripts
+\usepackage{wrapfig}
+\usepackage{xparse}
+\usepackage{units}
+\usepackage{xcolor}
+\definecolor{vertclair}{rgb}{0.10,0.55,0.17}
+\definecolor{vertfonce}{rgb}{0,0.44,0}
+\definecolor{grisclair}{rgb}{0.78,0.78,0.78}
+\definecolor{prune}{rgb}{0.65,0.00,0.00}
+\definecolor{bleufonce}{rgb}{0.06,0.06,1.00}
+\definecolor{violet}{rgb}{0.21,0.18,0.73}
+\definecolor{orange}{rgb}{0.93,0.46,0.00}
+% Jolie police
+\usepackage{fourier}
+% mais on garde les ancien ensemble de math de la police de base :
+\DeclareSymbolFont{AMSBbb}{U}{msb}{m}{n}
+\AtBeginDocument{\DeclareSymbolFontAlphabet{\mathbb}{AMSBbb}}
+
+%%%%%%%%% TIKZ 
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+    decorations.pathreplacing,decorations.pathmorphing,shapes,%
+    matrix,shapes.symbols}
+
+\tikzset{
+>=stealth',
+  punktchain/.style={
+    rectangle, 
+    rounded corners, 
+    % fill=black!10,
+    draw=black, very thick,
+    text width=10em, 
+    minimum height=3em, 
+    text centered, 
+    on chain},
+  line/.style={draw, thick, <-},
+  element/.style={
+    tape,
+    top color=white,
+    bottom color=blue!50!black!60!,
+    minimum width=8em,
+    draw=blue!40!black!90, very thick,
+    text width=10em, 
+    minimum height=3.5em, 
+    text centered, 
+    on chain},
+  every join/.style={->, thick,shorten >=1pt},
+  decoration={brace},
+  tuborg/.style={decorate},
+  tubnode/.style={midway, right=2pt},
+}
+
+\usepackage[cache=false]{minted}        % Utilisé pour les scripts
+\geometry{hmargin=2cm,vmargin=2cm} % Réglages des marges
+\usepackage{fancyhdr}		% Pour l'entête et les pieds de page
+\pagestyle{fancy}			% Pour l'entête et les pieds de page
+\usepackage{hyperref}		% Pour les liens hypertext, sommaire et références
+\usepackage[final]{pdfpages} % Pour inclure des .pdf
+
+\renewcommand{\abstractname}{Avant-propos} %Modification du titre de l'abstract
+\newcommand{\norme}[1]{\left\Vert #1\right\Vert} %Commande pour la norme euclidienne
+\renewcommand{\listoflistingscaption}{Liste des programmes} %Pour changer le titre de la liste des codes
+\renewcommand{\listingscaption}{Programme} %Pour changer la légende des codes
+\renewcommand{\O}[1]{$\mathcal{O}\left(#1\right)$} %Pour le O(.) de la complexité
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Fp}{\mathbb{F}_p}
+\newcommand{\Fq}{\mathbb{F}_q}
+
+\newcommand{\liendur}[1]{\href{#1}{\texttt{#1}}}
+
+\usepackage{xcolor}
+\definecolor{shadecolor}{RGB}{200,200,200}
+\newcommand{\enonce}[1]{\par\noindent\colorbox{shadecolor}
+{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{#1}}}
+
+
+\newminted{console}{mathescape,
+
+               breaklines = true,
+               numbersep=5pt,
+               frame=lines,
+               framesep=2mm}
+
+\newminted{c}{mathescape,
+
+               breaklines = true,
+               numbersep=5pt,
+               frame=lines,
+               framesep=2mm}
+
+\renewcommand{\headrulewidth}{0.5pt}
+\fancyhead[L]{\textsc{NF26 -- Data Warehouse et Décisionnel}}
+\fancyhead[R]{\textsc{Compte-Rendu du TD2}}
+% Créations de nouvelles commandess
+\newcommand{\citer}[1]{\begin{quotation}« \textit{#1} »\end{quotation}}
+\newcommand{\citerin}[1]{« \textit{#1} »}
+\newcommand{\citerbeg}[1]{\begin{quotation}« \textit{#1}\end{quotation}}
+\newcommand{\citermid}[1]{\begin{quotation}\textit{#1}\end{quotation}}
+\newcommand{\citerend}[1]{\begin{quotation}\textit{#1} »\end{quotation}}
+\newcommand{\todo}[1]{\begin{center}\textbf{\textsc{À être fait ou compléter:}} #1\end{center}}
+%\addto\captionsfrench{\renewcommand{\chaptername}{Partie}} % Pour afficher "Partie" à la place de "Chapitre"
+\newcommand{\version}[1]{1.0.0}
+\newcommand{\cd}[1]{\mintinline{python}{#1}}
+
+\newcommand{\linehorizon}[0]{\begin{center}\rule{\textwidth}{0.5pt}\end{center}}
+\newcommand{\question}[2]{\linehorizon\textsc{Question #1} : \textit{#2}\linehorizon}
+
+\newcommand{\znz}{\mathbb{Z}/n\mathbb{Z}}
+
+\NewDocumentCommand{\f}{o}{\IfNoValueTF{#1}{\mathbb{F}}{\mathbb{F}_#1[X]}}

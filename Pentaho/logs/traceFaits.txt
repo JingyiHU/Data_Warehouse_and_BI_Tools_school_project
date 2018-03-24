@@ -1,0 +1,93 @@
+2018/03/23 18:36:21 - Pentaho Data Integration - Using legacy execution engine
+2018/03/23 18:36:21 - Pentaho Data Integration - Transformation ouverte.
+2018/03/23 18:36:21 - Pentaho Data Integration - Chargement transformation [Faits]...
+2018/03/23 18:36:21 - Pentaho Data Integration - Exécution de la transformation démarrée.
+2018/03/23 18:36:21 - Faits - Distribution démarrée pour la tranformation [Faits]
+2018/03/23 18:36:21 - Insertion Table des Faits.0 - Connected to database [NF26 - Secours] (commit=1000)
+2018/03/23 18:36:22 - Importation Dimension Magasin.0 - Finished reading query, closing connection.
+2018/03/23 18:36:22 - Importation Dimension Magasin.0 - Fin exécution étape (Entrées=152, Sorties=0, Lues=0, Ecrites=152, Maj=0, Erreurs=0)
+2018/03/23 18:36:22 - Renomage Champ Magasin.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=152, Ecrites=152, Maj=0, Erreurs=0)
+2018/03/23 18:36:22 - Tri Dimension Magasin.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=152, Ecrites=152, Maj=0, Erreurs=0)
+2018/03/23 18:36:22 - Importation Dimension Date.0 - Finished reading query, closing connection.
+2018/03/23 18:36:22 - Importation Dimension Date.0 - Fin exécution étape (Entrées=1000, Sorties=0, Lues=0, Ecrites=1000, Maj=0, Erreurs=0)
+2018/03/23 18:36:22 - Renomage Champ Date.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1000, Ecrites=1000, Maj=0, Erreurs=0)
+2018/03/23 18:36:22 - Tri Dimension Date.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1000, Ecrites=1000, Maj=0, Erreurs=0)
+2018/03/23 18:36:22 - Importation Dimension Livre.0 - Finished reading query, closing connection.
+2018/03/23 18:36:22 - Renomage Champ Livre.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 18:36:22 - Importation Dimension Livre.0 - Fin exécution étape (Entrées=1443, Sorties=0, Lues=0, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 18:36:22 - Tri Dimension Livre.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 18:36:26 - Importation Ventes (Fantastic).0 - N° ligne : 50000
+2018/03/23 18:36:28 - Filtre sur ISBN.0 - N°Ligne 50000
+2018/03/23 18:36:30 - ISBN corrigé.0 - N°Ligne 50000
+2018/03/23 18:36:30 - Filtre sur Date.0 - N°Ligne 50000
+2018/03/23 18:36:30 - Date corrigée.0 - N°Ligne 50000
+2018/03/23 18:36:30 - Filtre sur ID Magasin.0 - N°Ligne 50000
+2018/03/23 18:36:30 - ID Magasin Corrigé.0 - N°Ligne 50000
+2018/03/23 18:36:30 - Tri par ID Magasin.0 - Linenr 50000
+2018/03/23 18:36:35 - Importation Ventes (Fantastic).0 - N° ligne : 100000
+2018/03/23 18:36:37 - Filtre sur ISBN.0 - N°Ligne 100000
+2018/03/23 18:36:39 - ISBN corrigé.0 - N°Ligne 100000
+2018/03/23 18:36:39 - Filtre sur Date.0 - N°Ligne 100000
+2018/03/23 18:36:39 - Date corrigée.0 - N°Ligne 100000
+2018/03/23 18:36:39 - Filtre sur ID Magasin.0 - N°Ligne 100000
+2018/03/23 18:36:39 - ID Magasin Corrigé.0 - N°Ligne 100000
+2018/03/23 18:36:39 - Tri par ID Magasin.0 - Linenr 100000
+2018/03/23 18:36:44 - Importation Ventes (Fantastic).0 - N° ligne : 150000
+2018/03/23 18:36:46 - Filtre sur ISBN.0 - N°Ligne 150000
+2018/03/23 18:36:48 - ISBN corrigé.0 - N°Ligne 150000
+2018/03/23 18:36:48 - Filtre sur Date.0 - N°Ligne 150000
+2018/03/23 18:36:48 - Date corrigée.0 - N°Ligne 150000
+2018/03/23 18:36:48 - Filtre sur ID Magasin.0 - N°Ligne 150000
+2018/03/23 18:36:48 - ID Magasin Corrigé.0 - N°Ligne 150000
+2018/03/23 18:36:48 - Tri par ID Magasin.0 - Linenr 150000
+2018/03/23 18:36:51 - Importation Ventes (Fantastic).0 - N° ligne : 200000
+2018/03/23 18:36:51 - Importation Ventes (Fantastic).0 - Fin exécution étape (Entrées=200000, Sorties=0, Lues=0, Ecrites=200000, Maj=0, Erreurs=0)
+2018/03/23 18:36:54 - Filtre sur ISBN.0 - N°Ligne 200000
+2018/03/23 18:36:54 - Filtre sur ISBN.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=200000, Ecrites=200000, Maj=0, Erreurs=0)
+2018/03/23 18:36:54 - Remplacement ISBN.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=44918, Ecrites=44918, Maj=0, Erreurs=0)
+2018/03/23 18:36:54 - ISBN corrigé.0 - N°Ligne 200000
+2018/03/23 18:36:54 - ISBN corrigé.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=200000, Ecrites=200000, Maj=0, Erreurs=0)
+2018/03/23 18:36:54 - Filtre sur Date.0 - N°Ligne 200000
+2018/03/23 18:36:54 - Filtre sur Date.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=200000, Ecrites=200000, Maj=0, Erreurs=0)
+2018/03/23 18:36:54 - Remplacement Date.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=7660, Ecrites=7660, Maj=0, Erreurs=0)
+2018/03/23 18:36:54 - Date corrigée.0 - N°Ligne 200000
+2018/03/23 18:36:54 - Date corrigée.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=200000, Ecrites=200000, Maj=0, Erreurs=0)
+2018/03/23 18:36:54 - Filtre sur ID Magasin.0 - N°Ligne 200000
+2018/03/23 18:36:54 - Filtre sur ID Magasin.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=200000, Ecrites=200000, Maj=0, Erreurs=0)
+2018/03/23 18:36:54 - Remplacement ID Magasin.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=6540, Ecrites=6540, Maj=0, Erreurs=0)
+2018/03/23 18:36:54 - ID Magasin Corrigé.0 - N°Ligne 200000
+2018/03/23 18:36:54 - ID Magasin Corrigé.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=200000, Ecrites=200000, Maj=0, Erreurs=0)
+2018/03/23 18:36:54 - Tri par ID Magasin.0 - Linenr 200000
+2018/03/23 18:36:54 - Nettoyage Jointure Magasin.0 - N°Ligne 50000
+2018/03/23 18:36:54 - Tri Date Vente.0 - Linenr 50000
+2018/03/23 18:36:55 - Nettoyage Jointure Magasin.0 - N°Ligne 100000
+2018/03/23 18:36:55 - Tri Date Vente.0 - Linenr 100000
+2018/03/23 18:36:55 - Nettoyage Jointure Magasin.0 - N°Ligne 150000
+2018/03/23 18:36:55 - Tri Date Vente.0 - Linenr 150000
+2018/03/23 18:36:55 - Tri par ID Magasin.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=200000, Ecrites=200000, Maj=0, Erreurs=0)
+2018/03/23 18:36:55 - Jointure sur ID Magasin.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=200152, Ecrites=193460, Maj=0, Erreurs=0)
+2018/03/23 18:36:55 - Nettoyage Jointure Magasin.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=193460, Ecrites=193460, Maj=0, Erreurs=0)
+2018/03/23 18:36:56 - Nettoyage Jointure Date.0 - N°Ligne 50000
+2018/03/23 18:36:56 - Tri ISBN.0 - Linenr 50000
+2018/03/23 18:36:56 - Nettoyage Jointure Date.0 - N°Ligne 100000
+2018/03/23 18:36:56 - Tri ISBN.0 - Linenr 100000
+2018/03/23 18:36:56 - Nettoyage Jointure Date.0 - N°Ligne 150000
+2018/03/23 18:36:56 - Tri ISBN.0 - Linenr 150000
+2018/03/23 18:36:56 - Tri Date Vente.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=193460, Ecrites=193460, Maj=0, Erreurs=0)
+2018/03/23 18:36:56 - Jointure sur Date.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=194460, Ecrites=186063, Maj=0, Erreurs=0)
+2018/03/23 18:36:56 - Nettoyage Jointure Date.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=186063, Ecrites=186063, Maj=0, Erreurs=0)
+2018/03/23 18:36:57 - Nettoyage Resultats.0 - N°Ligne 50000
+2018/03/23 18:36:57 - Tri Clés.0 - Linenr 50000
+2018/03/23 18:36:57 - Nettoyage Resultats.0 - N°Ligne 100000
+2018/03/23 18:36:57 - Tri Clés.0 - Linenr 100000
+2018/03/23 18:36:57 - Tri ISBN.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=186063, Ecrites=186063, Maj=0, Erreurs=0)
+2018/03/23 18:36:57 - Jointure sur ISBN.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=187506, Ecrites=144302, Maj=0, Erreurs=0)
+2018/03/23 18:36:57 - Nettoyage Resultats.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=144302, Ecrites=144302, Maj=0, Erreurs=0)
+2018/03/23 18:36:57 - Agrégation sans tri.0 - N°ligne 50000
+2018/03/23 18:36:58 - Agrégation sans tri.0 - N°ligne 100000
+2018/03/23 18:36:58 - Tri Clés.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=144302, Ecrites=144302, Maj=0, Erreurs=0)
+2018/03/23 18:36:58 - Insertion Table des Faits.0 - linenr 50000
+2018/03/23 18:36:58 - Insertion Table des Faits.0 - linenr 100000
+2018/03/23 18:36:58 - Agrégation sans tri.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=144302, Ecrites=132889, Maj=0, Erreurs=0)
+2018/03/23 18:36:58 - Insertion Table des Faits.0 - Fin exécution étape (Entrées=0, Sorties=132889, Lues=132889, Ecrites=132889, Maj=0, Erreurs=0)
+2018/03/23 18:36:58 - Pentaho Data Integration - L'exécution de la transformation a été achevée!

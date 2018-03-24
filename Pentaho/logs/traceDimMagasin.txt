@@ -1,0 +1,16 @@
+2018/03/23 17:15:17 - Pentaho Data Integration - Using legacy execution engine
+2018/03/23 17:15:17 - Pentaho Data Integration - Transformation ouverte.
+2018/03/23 17:15:17 - Pentaho Data Integration - Chargement transformation [DimensionMagasin]...
+2018/03/23 17:15:17 - Pentaho Data Integration - Exécution de la transformation démarrée.
+2018/03/23 17:15:17 - DimensionMagasin - Distribution démarrée pour la tranformation [DimensionMagasin]
+2018/03/23 17:15:17 - Insertion dans la table DimMagasin.0 - Connected to database [NF26 - Jingyi] (commit=1000)
+2018/03/23 17:15:17 - Importation Departements.0 - Fin exécution étape (Entrées=95, Sorties=0, Lues=0, Ecrites=95, Maj=0, Erreurs=0)
+2018/03/23 17:15:17 - Validation Départements.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=95, Ecrites=95, Maj=0, Erreurs=0)
+2018/03/23 17:15:17 - Tri Ascendant sur ID.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=95, Ecrites=95, Maj=0, Erreurs=0)
+2018/03/23 17:15:18 - Importation Magasins.0 - Fin exécution étape (Entrées=152, Sorties=0, Lues=0, Ecrites=152, Maj=0, Erreurs=0)
+2018/03/23 17:15:18 - Validation Magasins.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=152, Ecrites=152, Maj=0, Erreurs=0)
+2018/03/23 17:15:18 - Tri Ascendant sur Département.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=152, Ecrites=152, Maj=0, Erreurs=0)
+2018/03/23 17:15:19 - Jointure sur Département.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=247, Ecrites=152, Maj=0, Erreurs=0)
+2018/03/23 17:15:19 - Suppression Duplicat Departement.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=152, Ecrites=152, Maj=0, Erreurs=0)
+2018/03/23 17:15:19 - Insertion dans la table DimMagasin.0 - Fin exécution étape (Entrées=0, Sorties=152, Lues=152, Ecrites=152, Maj=0, Erreurs=0)
+2018/03/23 17:15:19 - Pentaho Data Integration - L'exécution de la transformation a été achevée!

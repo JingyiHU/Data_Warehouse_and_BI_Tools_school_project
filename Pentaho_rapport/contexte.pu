@@ -1,0 +1,51 @@
+@startuml
+
+skinparam defaultFontName Inconsolata
+class DimLivre{
+  # isbn
+  + ref
+  + title
+  + pubDate
+  + publisher
+  + mainAuthor
+  + othersAuthor
+  + bookLanguage
+  + genre
+}
+
+class DimMagasin {
+  # idMagasin
+  + idDepart
+  + nameDept
+  + popDept
+  + rayonnage
+  + typeMagasin
+  + rayonBestseller
+  + rayonRecent
+}
+
+class DimDate {
+  # dateJour
+  + startDay
+  + daysSince
+  + year
+  + month
+  + dayOfYear
+  + dayOfMonth
+  + dayOfWeek
+  + weekOfYear
+  + trimestre
+}
+
+class FAITS  #pink {
+  # isbn
+  # date
+  # idMagasin
+  + quantite
+}
+
+DimMagasin -- FAITS
+DimLivre -- FAITS
+DimDate -up- FAITS
+
+@enduml
