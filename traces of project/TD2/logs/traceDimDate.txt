@@ -1,0 +1,14 @@
+2018/03/23 18:15:40 - Pentaho Data Integration - Using legacy execution engine
+2018/03/23 18:15:40 - Pentaho Data Integration - Transformation ouverte.
+2018/03/23 18:15:40 - Pentaho Data Integration - Chargement transformation [DimensionDate]...
+2018/03/23 18:15:40 - Pentaho Data Integration - Exécution de la transformation démarrée.
+2018/03/23 18:15:40 - DimensionDate - Distribution démarrée pour la tranformation [DimensionDate]
+2018/03/23 18:15:40 - Insertion dans table DimDate.0 - Connected to database [NF26 - Secours] (commit=1000)
+2018/03/23 18:15:40 - 1000 days.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=0, Ecrites=1000, Maj=0, Erreurs=0)
+2018/03/23 18:15:40 - Jour Depuis.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1000, Ecrites=1000, Maj=0, Erreurs=0)
+2018/03/23 18:15:40 - Calcul des dates.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1000, Ecrites=1000, Maj=0, Erreurs=0)
+2018/03/23 18:15:40 - Selection des valeurs.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1000, Ecrites=1000, Maj=0, Erreurs=0)
+2018/03/23 18:15:40 - Suppression Heure.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1000, Ecrites=1000, Maj=0, Erreurs=0)
+2018/03/23 18:15:40 - Changement slash en tiret.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1000, Ecrites=1000, Maj=0, Erreurs=0)
+2018/03/23 18:15:40 - Insertion dans table DimDate.0 - Fin exécution étape (Entrées=0, Sorties=1000, Lues=1000, Ecrites=1000, Maj=0, Erreurs=0)
+2018/03/23 18:15:40 - Pentaho Data Integration - L'exécution de la transformation a été achevée!

@@ -1,0 +1,27 @@
+2018/03/23 17:09:38 - Pentaho Data Integration - Using legacy execution engine
+2018/03/23 17:09:38 - Pentaho Data Integration - Transformation ouverte.
+2018/03/23 17:09:38 - Pentaho Data Integration - Chargement transformation [DimensionLivre]...
+2018/03/23 17:09:38 - Pentaho Data Integration - Exécution de la transformation démarrée.
+2018/03/23 17:09:38 - DimensionLivre - Distribution démarrée pour la tranformation [DimensionLivre]
+2018/03/23 17:09:39 - Insertion dans la table DimLivre.0 - Connected to database [NF26 - Jingyi] (commit=1000)
+2018/03/23 17:09:40 - Importation du Catalogue.0 - Finished reading query, closing connection.
+2018/03/23 17:09:40 - Importation du Catalogue.0 - Fin exécution étape (Entrées=1443, Sorties=0, Lues=0, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Formattage de PUBDate.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Filter sur ISBN.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Remplacement ISBN.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=295, Ecrites=295, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - ISBN corrigé.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Filtre sur PUBDate.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Dates corrigées.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Extraction Premier Auteur.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Vue sur les données.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Filtre sur publisher.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Remplacement Publisher.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=281, Ecrites=281, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Publisher corrigé.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Filtre sur Langue.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Remplacement Langue.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=7, Ecrites=7, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Langue corrigée.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Filtre sur Genre.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Genre corrigé.0 - Fin exécution étape (Entrées=0, Sorties=0, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Insertion dans la table DimLivre.0 - Fin exécution étape (Entrées=0, Sorties=1443, Lues=1443, Ecrites=1443, Maj=0, Erreurs=0)
+2018/03/23 17:09:40 - Pentaho Data Integration - L'exécution de la transformation a été achevée!
+
